@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Día de los Hot Wheels</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Three.js & OrbitControls -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+
+  <!-- Pantalla de inicio con mensaje y botón -->
+  <div id="start-screen">
+    <div class="card">
+      <h1 class="glow-text">A TI TE GUSTAN LOS CARROS<br>A MÍ ME GUSTAS TÚ</h1>
+      <button id="btn-descubrir" class="glow-btn">DESCUBRIR</button>
+    </div>
+  </div>
+
+  <!-- Encabezado que aparece tras dar clic -->
+  <header id="header-title">
+    <h1 class="glow-text">Feliz Día de los Hot Wheels</h1>
+    <p class="subtitle">PARA ALGUIEN MUY ESPECIAL</p>
+  </header>
+
+  <!-- Contenedor del Universo 3D -->
+  <div id="canvas-container"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
